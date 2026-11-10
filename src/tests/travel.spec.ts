@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import { FlightSearchPage } from '../pages/FlightSearchPage';
-import { FlightPurchasePage } from '../pages/FlightPurchasePage';
+import { FlightSearchPage } from '../pages/travel/FlightSearchPage';
+import { FlightPurchasePage } from '../pages/travel/FlightPurchasePage';
 
 // A descriptive 'describe' block models real-world regression suite structures
 test.describe('Travel Portal - Flight Booking Workflows', () => {
